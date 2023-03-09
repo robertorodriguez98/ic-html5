@@ -26,5 +26,6 @@ pipeline {
                 sh 'surge ./_build/ robertorm.surge.sh --token $TOKEN'
             }
         }        
+
     }
 }
